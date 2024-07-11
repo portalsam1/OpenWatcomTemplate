@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "DOS",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\WATCOM\\h\\**"
+            ],
+            "defines": [],
+            "compilerPath": "C:\\WATCOM\\binnt64\\wcl.exe",
+            "intelliSenseMode": "gcc-x86",
+            "cStandard": "c89",
+            "cppStandard": "c++98"
+        }
+    ],
+    "version": 4
+}

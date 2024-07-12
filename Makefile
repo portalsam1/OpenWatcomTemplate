@@ -25,6 +25,6 @@ configurepath:
 configurebuild:
 	$(BUILDFILE) configure build
 
-configureboth:
+configureall:
 	make configurepath
 	make configurebuild

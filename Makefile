@@ -1,6 +1,7 @@
 BUILDFILE:=python build.py
 
 all:
+	make clean
 	make buildrun
 	
 build:

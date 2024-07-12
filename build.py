@@ -211,7 +211,7 @@ def setupEnvironment():
 def assembleSources():
     sourceFiles = ""
     for extension in sourceFileExtensions:
-        for file in glob.glob("**/*." + extension):
+        for file in glob.glob("src/**/*." + extension, recursive=True):
             sourceFiles += file + " "
     return sourceFiles
 

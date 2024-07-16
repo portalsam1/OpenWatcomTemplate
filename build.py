@@ -204,7 +204,7 @@ def setupEnvironment():
     else:
         environment["WATCOM"] = watcomDirectory
         environment["INCLUDE"] = includeDirectory
-        environment["PATH"] = binaryDirectory + ";" + emulatorPath + ";" + environment["PATH"]
+        environment["PATH"] = binaryDirectory + ":" + emulatorPath + ":" + environment["PATH"]
 
     return environment
 
